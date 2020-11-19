@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="controls">
+      <label for="sizing">размер</label>
+      <input
+        name="sizing"
+        type="range"
+        min="500"
+        max="800"
+        value="500"
+        data-sizing="px"
+      />
+      <label for="blur">размытие</label>
+      <input
+        name="blur"
+        type="range"
+        min="0"
+        max="10"
+        value="0"
+        data-sizing="px"
+      />
+      <label for="color">фон</label>
+      <input name="base" type="color" value="#bfbdb5" />
+      <label for="invers">инверсия</label>
+      <input
+        name="invers"
+        type="range"
+        min="0"
+        max="100"
+        value="0"
+        data-sizing="%"
+      />
+      <label for="sepia">сепия</label>
+      <input
+        name="sepia"
+        type="range"
+        min="0"
+        max="100"
+        value="0"
+        data-sizing="%"
+      />
+      <label for="nas">контраст</label>
+      <input
+        name="nas"
+        type="range"
+        min="0"
+        max="100"
+        value="100"
+        data-sizing="%"
+      />
+    </div>
+    <img src="./img/football.png" alt="img" />
+
+    <script src="main.js"></script>
+  </body>
+</html>
